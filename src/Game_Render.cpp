@@ -15,60 +15,7 @@ using PS = Pokitto::Sound;
  */
 void Game::renderBackground(byte counter) { 
 
-  // PD::fillScreen(11);
-
-  // PD::drawBitmap(112,  0, Pipe_Straight_TB_NoFlange);
-  // PD::drawBitmap(112, 16, Pipe_Corner_TL);
-  // PD::drawBitmap(96,  16, Pipe_Corner_TR_NoFlange);
-  // PD::drawBitmap(96,   0, Pipe_Corner_BL);
-  // PD::drawBitmap(80,   0, Pipe_Straight_LR_NoFlange);
-  // PD::drawBitmap(64,   0, Pipe_Straight_LR);
-  // PD::drawBitmap(48,   0, Pipe_Corner_BR);
-  // PD::drawBitmap(48,  16, Pipe_Straight_TB_NoFlange);
-  // PD::drawBitmap(48,  32, Pipe_Corner_TR_NoFlange);
-  // PD::drawBitmap(64,  32, Pipe_Corner_BL);
-  // PD::drawBitmap(64,  48, Pipe_Straight_TB_NoFlange);
-
-  // PD::drawBitmap(0,    0, Pipe_Straight_TB_NoFlange);
-  // PD::drawBitmap(0,   16, Pipe_Straight_TB);
-  // PD::drawBitmap(0,   32, Pipe_Corner_TR_NoFlange);
-  // PD::drawBitmap(16,  32, Pipe_Straight_LR);
-  // PD::drawBitmap(32,  32, Pipe_Corner_TL);
-  // PD::drawBitmap(32,  16, Pipe_Corner_BR);
-  // PD::drawBitmap(48,  16, Pipe_Cross_Underlap_NoFlange);
-  // PD::drawBitmap(64,  16, Pipe_Straight_LR_NoFlange);
-  // PD::drawBitmap(80,  16, Pipe_Corner_BL);
-  // PD::drawBitmap(80,  32, Pipe_Corner_TR_NoFlange);
-  // PD::drawBitmap(96,  32, Pipe_Straight_LR);
-  // PD::drawBitmap(112, 32, Pipe_Straight_LR_NoFlange);
-
-  // PD::drawBitmap(0,    0, Pipe_Cross_Underlap_NoFlange);
-  // PD::drawBitmap(16,   0, Pipe_Corner_BL);
-  // PD::drawBitmap(16,  16, Pipe_Straight_TB);
-  // PD::drawBitmap(16,  32, Pipe_Cross_Overlap_NoFlange);
-  // PD::drawBitmap(16,  48, Pipe_Corner_TR_NoFlange);
-  // PD::drawBitmap(32,  48, Pipe_Straight_LR);
-  // PD::drawBitmap(48,  48, Pipe_Straight_LR_NoFlange);
-  // PD::drawBitmap(64,  48, Pipe_Cross_Underlap_NoFlange);
-  // PD::drawBitmap(80,  48, Pipe_Straight_LR_NoFlange);
-  // PD::drawBitmap(96,  48, Pipe_Corner_BL);
-
-  // PD::drawBitmap(0,  48, Pipe_Corner_BL);
-
-  // PD::drawBitmap(0,  64, Pipe_Tee_TB_R);
-  // PD::drawBitmap(16,  64, Pipe_Straight_LR);
-  // PD::drawBitmap(32,  64, Pipe_Tee_LR_B);
-  // PD::drawBitmap(48,  64, Pipe_Straight_LR);
-  // PD::drawBitmap(64,  64, Pipe_Corner_TL);
-
-
-  // PD::drawBitmap(96,  64, Pipe_Straight_TB);
-
-  // PD::drawBitmap(0,  80, Pipe_Straight_TB);
-  // PD::drawBitmap(32,  80, Pipe_Straight_TB);
-  // PD::drawBitmap(96,  80, Pipe_Corner_TR_NoFlange);
-
-    PD::fillScreen(11);
+  PD::fillScreen(11);
 
   if (counter >= 1) PD::drawBitmap(112,  0, Pipe_Straight_TB_NoFlange);
   if (counter >= 2) PD::drawBitmap(112, 16, Pipe_Corner_TL);

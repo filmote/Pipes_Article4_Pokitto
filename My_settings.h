@@ -45,6 +45,4 @@
 
 #define COOKIE_INITIALISED           34
 
-#define SPLASH_MAX                   530
-#define SPLASH_INCREMENT             10
-#define SPLASH_INCREMENTS_MAX        SPLASH_MAX / SPLASH_INCREMENT
+#define SPLASH_MAX                   53
