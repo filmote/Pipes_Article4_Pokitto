@@ -75,7 +75,7 @@ void Game::levelSelect() {
   
   // Render menu ..
   
-  renderBackground(SPLASH_INCREMENTS_MAX);
+  renderBackground(SPLASH_MAX);
 
   PD::setColor(1);
   PD::fillRect(MENU_LEVEL_SELECT_OVERALL_X_POS, MENU_LEVEL_SELECT_OVERALL_Y_POS, MENU_LEVEL_SELECT_OVERALL_WIDTH, MENU_LEVEL_SELECT_OVERALL_HEIGHT);
@@ -113,47 +113,47 @@ void Game::renderLevelDetail(byte x, byte y, byte level, byte highlight) {
   
   switch (level) {
 
-    case PUZZLE_5X5:
+    case PUZZLE_5x5:
       PD::print("Practice");
       PD::setCursor(x + 48, y);
-      PD::print(cookie->getLevelIndex(PUZZLE_5X5) < 10 ? " " : "");
-      PD::print(cookie->getLevelIndex(PUZZLE_5X5), 10);
+      PD::print(cookie->getLevelIndex(PUZZLE_5x5) < 10 ? " " : "");
+      PD::print(cookie->getLevelIndex(PUZZLE_5x5), 10);
       PD::print("/");
       PD::print(puzzles_5x5_count, 10);
       break;
 
-    case PUZZLE_6X6:
+    case PUZZLE_6x6:
       PD::print("Easy");
       PD::setCursor(x + 48, y);
-      PD::print(cookie->getLevelIndex(PUZZLE_6X6) < 10 ? " " : "");
-      PD::print(cookie->getLevelIndex(PUZZLE_6X6), 10);
+      PD::print(cookie->getLevelIndex(PUZZLE_6x6) < 10 ? " " : "");
+      PD::print(cookie->getLevelIndex(PUZZLE_6x6), 10);
       PD::print("/");
       PD::print(puzzles_6x6_count, 10);
       break;
 
-    case PUZZLE_7X7:
+    case PUZZLE_7x7:
       PD::print("Medium");
       PD::setCursor(x + 48, y);
-      PD::print(cookie->getLevelIndex(PUZZLE_7X7) < 10 ? " " : "");
-      PD::print(cookie->getLevelIndex(PUZZLE_7X7), 10);
+      PD::print(cookie->getLevelIndex(PUZZLE_7x7) < 10 ? " " : "");
+      PD::print(cookie->getLevelIndex(PUZZLE_7x7), 10);
       PD::print("/");
       PD::print(puzzles_7x7_count, 10);
       break;
 
-    case PUZZLE_8X8:
+    case PUZZLE_8x8:
       PD::print("Hard");
       PD::setCursor(x + 48, y);
-      PD::print(cookie->getLevelIndex(PUZZLE_8X8) < 10 ? " " : "");
-      PD::print(cookie->getLevelIndex(PUZZLE_8X8), 10);
+      PD::print(cookie->getLevelIndex(PUZZLE_8x8) < 10 ? " " : "");
+      PD::print(cookie->getLevelIndex(PUZZLE_8x8), 10);
       PD::print("/");
       PD::print(puzzles_8x8_count, 10);
       break;
 
-    case PUZZLE_9X9:
+    case PUZZLE_9x9:
       PD::print("Extreme");
       PD::setCursor(x + 48, y);
-      PD::print(cookie->getLevelIndex(PUZZLE_9X9) < 10 ? " " : "");
-      PD::print(cookie->getLevelIndex(PUZZLE_9X9), 10);
+      PD::print(cookie->getLevelIndex(PUZZLE_9x9) < 10 ? " " : "");
+      PD::print(cookie->getLevelIndex(PUZZLE_9x9), 10);
       PD::print("/");
       PD::print(puzzles_9x9_count, 10);
       break;  		
@@ -209,7 +209,7 @@ void Game::puzzleSelect() {
   
   // Render menu ..
 
-  renderBackground(SPLASH_INCREMENTS_MAX);
+  renderBackground(SPLASH_MAX);
 
   PD::setColor(1);
   PD::fillRect(MENU_QUIT_RESTART_OVERALL_X_POS, MENU_QUIT_RESTART_OVERALL_Y_POS, MENU_QUIT_RESTART_OVERALL_WIDTH, MENU_QUIT_RESTART_OVERALL_HEIGHT);

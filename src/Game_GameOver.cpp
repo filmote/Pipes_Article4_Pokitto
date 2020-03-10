@@ -20,7 +20,7 @@ using PS = Pokitto::Sound;
  */
 void Game::gameOver() { 
 
-  renderBackground(SPLASH_INCREMENTS_MAX);
+  renderBackground(SPLASH_MAX);
 
 
   // Render message ..

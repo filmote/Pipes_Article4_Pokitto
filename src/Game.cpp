@@ -12,7 +12,7 @@ void Game::setup(GameCookie *cookie) {
     
   this->cookie = cookie;
 
-  puzzle.level = PUZZLE_5X5;
+  puzzle.level = PUZZLE_5x5;
   puzzle.index = 0;
 
 }

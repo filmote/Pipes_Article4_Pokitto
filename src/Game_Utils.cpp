@@ -46,23 +46,23 @@ void Game::initBoard(byte puzzleType, byte puzzleNumber) {
 
   	switch (puzzleType) {
       
-  	  case PUZZLE_5X5:
+  	  case PUZZLE_5x5:
   		  byteRead = puzzles_5x5[i];
   		  break;
         
-      case PUZZLE_6X6:
+      case PUZZLE_6x6:
         byteRead = puzzles_6x6[i];
         break;
         
-      case PUZZLE_7X7:
+      case PUZZLE_7x7:
         byteRead = puzzles_7x7[i];
         break;
         
-      case PUZZLE_8X8:
+      case PUZZLE_8x8:
         byteRead = puzzles_8x8[i];
         break;
   		  
-  	  case PUZZLE_9X9:
+  	  case PUZZLE_9x9:
   		  byteRead = puzzles_9x9[i];
   		  break;
   
@@ -251,19 +251,19 @@ byte Game::getNumberOfPuzzles(byte puzzleLevel) {
 
   switch (puzzleLevel) {
     
-    case PUZZLE_5X5:
+    case PUZZLE_5x5:
       return puzzles_5x5_count;
     
-    case PUZZLE_6X6:
+    case PUZZLE_6x6:
       return puzzles_6x6_count;
     
-    case PUZZLE_7X7:
+    case PUZZLE_7x7:
       return puzzles_7x7_count;
     
-    case PUZZLE_8X8:
+    case PUZZLE_8x8:
       return puzzles_8x8_count;
     
-    case PUZZLE_9X9:
+    case PUZZLE_9x9:
       return puzzles_9x9_count;
 
   }

@@ -34,23 +34,23 @@ class GameCookie : public Pokitto::Cookie {
 
 			switch (level) {
 
-				case PUZZLE_5X5:
+				case PUZZLE_5x5:
 					level5x5 = index;
 					break;
 
-				case PUZZLE_6X6:
+				case PUZZLE_6x6:
 					level6x6 = index;
 					break;
 
-				case PUZZLE_7X7:
+				case PUZZLE_7x7:
 					level7x7 = index;
 					break;
 
-				case PUZZLE_8X8:
+				case PUZZLE_8x8:
 					level8x8 = index;
 					break;
 
-				case PUZZLE_9X9:
+				case PUZZLE_9x9:
 					level9x9 = index;
 					break;
 					
@@ -64,19 +64,19 @@ class GameCookie : public Pokitto::Cookie {
 
 			switch (level) {
 
-				case PUZZLE_5X5:
+				case PUZZLE_5x5:
 					return level5x5;
 
-				case PUZZLE_6X6:
+				case PUZZLE_6x6:
 					return level6x6;
 
-				case PUZZLE_7X7:
+				case PUZZLE_7x7:
 					return level7x7 ;
 
-				case PUZZLE_8X8:
+				case PUZZLE_8x8:
 					return level8x8;
 
-				case PUZZLE_9X9:
+				case PUZZLE_9x9:
 					return level9x9;
 					
 			}			

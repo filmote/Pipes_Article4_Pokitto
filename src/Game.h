@@ -12,6 +12,7 @@
 #include "images/Heading.h"
 #include "sounds/Connected.h"
 
+
 class Game {
     
     public:
@@ -92,6 +93,6 @@ class Game {
       const byte* nodes[11] = { 0, Node1, Node2, Node3, Node4, Node5, Node6, Node7, Node8, Node9, Node10 };
       const byte* connectors[13] = { Connector_Nothing, Connector_Horizontal, Connector_Horizontal, Connector_Vertical, Connector_Vertical, Connector_Corner_TL, Connector_Corner_TL, 
                                       Connector_Corner_TR, Connector_Corner_TR, Connector_Corner_BL, Connector_Corner_BL, Connector_Corner_BR, Connector_Corner_BR};
-      const byte levels[5] = { PUZZLE_5X5, PUZZLE_6X6, PUZZLE_7X7, PUZZLE_8X8, PUZZLE_9X9 };
+      const byte levels[5] = { PUZZLE_5x5, PUZZLE_6x6, PUZZLE_7x7, PUZZLE_8x8, PUZZLE_9x9 };
 
 };

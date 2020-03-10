@@ -37,11 +37,11 @@
 #define STATE_NODE_SELECTED          6
 #define STATE_GAME_OVER              7
 
-#define PUZZLE_5X5                   5
-#define PUZZLE_6X6                   6
-#define PUZZLE_7X7                   7
-#define PUZZLE_8X8                   8
-#define PUZZLE_9X9                   9
+#define PUZZLE_5x5                   5
+#define PUZZLE_6x6                   6
+#define PUZZLE_7x7                   7
+#define PUZZLE_8x8                   8
+#define PUZZLE_9x9                   9
 
 #define COOKIE_INITIALISED           34
 
