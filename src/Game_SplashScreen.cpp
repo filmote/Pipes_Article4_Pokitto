@@ -17,7 +17,7 @@ void Game::initSplash() {
 
 
 /* ----------------------------------------------------------------------------
- *   Render the Splash screen.
+ *  Render the splash screen ..
  *   
  *   The pipes are rendered one-by-one to simulate the laying of pipe.  The
  *   rendering function allows the user to press the A button to skip past the

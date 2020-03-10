@@ -73,7 +73,6 @@ class Game {
       bool isPuzzleComplete();
       void updatePipeWhenReversing(byte x, byte y);
       bool validMove(byte direction, Node selectedNode, int x, int y);
-      void splashAnimation(byte x, byte y, const uint8_t *bitmap);
 
 
     private:
