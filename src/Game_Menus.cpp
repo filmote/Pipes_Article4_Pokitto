@@ -26,12 +26,13 @@ using PS = Pokitto::Sound;
 
 #define MENU_QUIT_RESTART_OVERALL_WIDTH      74
 #define MENU_QUIT_RESTART_OVERALL_X_POS      18
-#define MENU_QUIT_RESTART_OVERALL_Y_POS      30
-#define MENU_QUIT_RESTART_OVERALL_HEIGHT     22
+#define MENU_QUIT_RESTART_OVERALL_Y_POS      25
+#define MENU_QUIT_RESTART_OVERALL_HEIGHT     32
 
 #define MENU_QUIT_RESTART_ITEM_X_POS         MENU_QUIT_RESTART_OVERALL_X_POS + 4
 #define MENU_QUIT_RESTART_ITEM_1_Y_POS       MENU_QUIT_RESTART_OVERALL_Y_POS + 3
 #define MENU_QUIT_RESTART_ITEM_2_Y_POS       MENU_QUIT_RESTART_ITEM_1_Y_POS + 10
+#define MENU_QUIT_RESTART_ITEM_3_Y_POS       MENU_QUIT_RESTART_ITEM_2_Y_POS + 10
 
 #define MENU_QUIT_RESTART_ITEM_WIDTH         68   
 #define MENU_QUIT_RESTART_ITEM_HEIGHT        7
@@ -44,9 +45,9 @@ void Game::levelSelect() {
 
   clearHighlightAndSelection();
 
-  if (PC::buttons.pressed(BTN_UP) && levelSelect_selectedItem > 0) 					      { levelSelect_selectedItem--; }
+  if (PC::buttons.pressed(BTN_UP) && levelSelect_selectedItem > 0) 					              { levelSelect_selectedItem--; }
   if (PC::buttons.pressed(BTN_DOWN) && levelSelect_selectedItem < sizeof(levels) - 1) 	  { levelSelect_selectedItem++; }
-  if (PC::buttons.pressed(BTN_B)) 												          { gameState = STATE_SPLASH_INIT; }
+  if (PC::buttons.pressed(BTN_B)) 												                                { gameState = STATE_SPLASH_INIT; }
 
   if (PC::buttons.pressed(BTN_A)) { 
 
@@ -175,33 +176,40 @@ void Game::puzzleSelect() {
   clearHighlightAndSelection();
    
   if (PC::buttons.pressed(BTN_UP) && puzzleSelect_selectedItem > 0)         { puzzleSelect_selectedItem--; }
-  if (PC::buttons.pressed(BTN_DOWN) && puzzleSelect_selectedItem < 1)       { puzzleSelect_selectedItem++; }
-  if (PC::buttons.pressed(BTN_B))                                           { gameState = STATE_LEVEL_SELECT; }
+  if (PC::buttons.pressed(BTN_DOWN) && puzzleSelect_selectedItem < 2)       { puzzleSelect_selectedItem++; }
   
   if (PC::buttons.pressed(BTN_A)) { 
 	  
-	  if (puzzleSelect_selectedItem == 1) {
-		  
-		puzzle.index = 0;
+    switch (puzzleSelect_selectedItem) {
+
+      case 0:
+        // If all puzzles in the current level are completed, simply re-show the last puzzle ..
+        
+        if (cookie->getLevelIndex(puzzle.level) == getNumberOfPuzzles(puzzle.level)) {
+          puzzle.index = cookie->getLevelIndex(puzzle.level) - 1;
+        }
+        else {
+          cookie->getLevelIndex(puzzle.level);
+        }
+    	  gameState = STATE_INIT_GAME;
+        break;
+
+      case 1:
+        if (prevState == STATE_LEVEL_SELECT) {  
+		      puzzle.index = cookie->getLevelIndex(puzzle.level);
+        }
+        else {
+		      puzzle.index = 0;
+        }
         cookie->updateLevel(puzzle.level, puzzle.index);
-           
-	  }
-	  
-	  if (puzzleSelect_selectedItem == 0) {
+     	  gameState = STATE_INIT_GAME;
+        break;
 
+      case 2:
+    	  gameState = STATE_LEVEL_SELECT;
+        break;
 
-          // If all puzzles in the current level are completed, simply re-show the last puzzle ..
-          
-          if (cookie->getLevelIndex(puzzle.level) == getNumberOfPuzzles(puzzle.level)) {
-      		  puzzle.index = cookie->getLevelIndex(puzzle.level) - 1;
-          }
-          else {
-            cookie->getLevelIndex(puzzle.level);
-          }
-    		  
-	  }
-	  
-	  gameState = STATE_INIT_GAME;
+    }
 	  
   }
   
@@ -219,6 +227,7 @@ void Game::puzzleSelect() {
   const char s1[] = {"Continue Playing"};
   const char s2[] = {"  Restart Puzzle "};
   const char s3[] = {"    Reset Level"};
+  const char s4[] = {"   Level Select"};
 
   if (prevState == STATE_LEVEL_SELECT) {
     renderPuzzleOption(MENU_QUIT_RESTART_ITEM_X_POS, MENU_QUIT_RESTART_ITEM_1_Y_POS, s1, (puzzleSelect_selectedItem == 0));
@@ -227,6 +236,7 @@ void Game::puzzleSelect() {
     renderPuzzleOption(MENU_QUIT_RESTART_ITEM_X_POS, MENU_QUIT_RESTART_ITEM_1_Y_POS, s2, (puzzleSelect_selectedItem == 0));
   }
   renderPuzzleOption(MENU_QUIT_RESTART_ITEM_X_POS, MENU_QUIT_RESTART_ITEM_2_Y_POS, s3, (puzzleSelect_selectedItem == 1));
+  renderPuzzleOption(MENU_QUIT_RESTART_ITEM_X_POS, MENU_QUIT_RESTART_ITEM_3_Y_POS, s4, (puzzleSelect_selectedItem == 2));
 
 }
 

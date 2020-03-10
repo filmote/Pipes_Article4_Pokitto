@@ -79,7 +79,8 @@ class GameCookie : public Pokitto::Cookie {
 				case PUZZLE_9x9:
 					return level9x9;
 					
-			}			
+			}		
+			
 		}
 
 };

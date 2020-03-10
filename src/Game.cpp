@@ -114,19 +114,9 @@ void Game::play_NoSelection() {
   }
 
   if (PC::buttons.pressed(BTN_B)) {
-
-    if (puzzle.index == 0) {
-        
-      gameState = STATE_LEVEL_SELECT;
-      prevState = STATE_NO_SELECTION;
-
-    }
-    else {
-        
+       
       gameState = STATE_PUZZLE_SELECT;
       prevState = STATE_NO_SELECTION;
-        
-    }
       
   }
   
