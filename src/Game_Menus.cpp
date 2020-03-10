@@ -44,9 +44,9 @@ void Game::levelSelect() {
 
   clearHighlightAndSelection();
 
-  if (PC::buttons.pressed(BTN_UP) && levelSelect_selectedItem > 0) 					              { levelSelect_selectedItem--; }
+  if (PC::buttons.pressed(BTN_UP) && levelSelect_selectedItem > 0) 					      { levelSelect_selectedItem--; }
   if (PC::buttons.pressed(BTN_DOWN) && levelSelect_selectedItem < sizeof(levels) - 1) 	  { levelSelect_selectedItem++; }
-  if (PC::buttons.pressed(BTN_B)) 												                                { gameState = STATE_SPLASH_INIT; }
+  if (PC::buttons.pressed(BTN_B)) 												          { gameState = STATE_SPLASH_INIT; }
 
   if (PC::buttons.pressed(BTN_A)) { 
 
@@ -75,7 +75,7 @@ void Game::levelSelect() {
   
   // Render menu ..
   
-  renderBackground();
+  renderBackground(SPLASH_INCREMENTS_MAX);
 
   PD::setColor(1);
   PD::fillRect(MENU_LEVEL_SELECT_OVERALL_X_POS, MENU_LEVEL_SELECT_OVERALL_Y_POS, MENU_LEVEL_SELECT_OVERALL_WIDTH, MENU_LEVEL_SELECT_OVERALL_HEIGHT);
@@ -209,7 +209,7 @@ void Game::puzzleSelect() {
   
   // Render menu ..
 
-  renderBackground();
+  renderBackground(SPLASH_INCREMENTS_MAX);
 
   PD::setColor(1);
   PD::fillRect(MENU_QUIT_RESTART_OVERALL_X_POS, MENU_QUIT_RESTART_OVERALL_Y_POS, MENU_QUIT_RESTART_OVERALL_WIDTH, MENU_QUIT_RESTART_OVERALL_HEIGHT);

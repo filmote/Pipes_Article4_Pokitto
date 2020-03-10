@@ -30,7 +30,7 @@ class Game {
 
       // Manu handling options ..
 
-      void renderBackground();
+      void renderBackground(byte counter);
 
 
       // Splash screen handling ..

@@ -1036,6 +1036,435 @@
 		},
 		"/Pipes_Article4_Pokitto.bin": {
 			"sdcard": false
+		},
+		"\\My_settings.h": {
+			"sdcard": false
+		},
+		"\\documents": {
+			"sdcard": false
+		},
+		"\\main.cpp": {
+			"sdcard": false
+		},
+		"\\Pipes_Article4_Pokitto.bin": {
+			"sdcard": false
+		},
+		"\\Pipes_Article4_Pokitto.elf": {
+			"sdcard": false
+		},
+		"\\project.json": {
+			"sdcard": false
+		},
+		"\\src": {
+			"sdcard": false
+		},
+		"\\sounds": {
+			"sdcard": false
+		},
+		"\\documents\\Img1.h": {
+			"sdcard": false
+		},
+		"\\documents\\Img1.png": {
+			"sdcard": false
+		},
+		"\\documents\\Img10.h": {
+			"sdcard": false
+		},
+		"\\documents\\Img11.h": {
+			"sdcard": false
+		},
+		"\\documents\\Img10.png": {
+			"sdcard": false
+		},
+		"\\documents\\Img11.png": {
+			"sdcard": false
+		},
+		"\\documents\\Img2.h": {
+			"sdcard": false
+		},
+		"\\documents\\Img2.png": {
+			"sdcard": false
+		},
+		"\\documents\\Img3.h": {
+			"sdcard": false
+		},
+		"\\documents\\Img3.png": {
+			"sdcard": false
+		},
+		"\\documents\\Img4.h": {
+			"sdcard": false
+		},
+		"\\documents\\Img4.png": {
+			"sdcard": false
+		},
+		"\\documents\\Img5.h": {
+			"sdcard": false
+		},
+		"\\documents\\Img6.h": {
+			"sdcard": false
+		},
+		"\\documents\\Img5.png": {
+			"sdcard": false
+		},
+		"\\documents\\Img6.png": {
+			"sdcard": false
+		},
+		"\\documents\\Img7.h": {
+			"sdcard": false
+		},
+		"\\documents\\Img8.h": {
+			"sdcard": false
+		},
+		"\\documents\\Img7.png": {
+			"sdcard": false
+		},
+		"\\documents\\Img8.png": {
+			"sdcard": false
+		},
+		"\\documents\\Img9.h": {
+			"sdcard": false
+		},
+		"\\documents\\Img9.png": {
+			"sdcard": false
+		},
+		"\\documents\\Pipes_Article4_Body.docx": {
+			"sdcard": false
+		},
+		"\\documents\\Pipes_Article4_Callout.docx": {
+			"sdcard": false
+		},
+		"\\documents\\~$pes_Article4_Body.docx": {
+			"sdcard": false
+		},
+		"\\src\\Game.cpp": {
+			"sdcard": false
+		},
+		"\\src\\Game.h": {
+			"sdcard": false
+		},
+		"\\src\\Game_GameOver.cpp": {
+			"sdcard": false
+		},
+		"\\src\\Game_SplashScreen.cpp": {
+			"sdcard": false
+		},
+		"\\src\\Game_Menus.cpp": {
+			"sdcard": false
+		},
+		"\\src\\Game_Utils.cpp": {
+			"sdcard": false
+		},
+		"\\src\\images": {
+			"sdcard": false
+		},
+		"\\src\\Game_Render.cpp": {
+			"sdcard": false
+		},
+		"\\src\\puzzles": {
+			"sdcard": false
+		},
+		"\\src\\sounds": {
+			"sdcard": false
+		},
+		"\\src\\utils": {
+			"sdcard": false
+		},
+		"\\sounds\\Connected.h": {
+			"sdcard": false
+		},
+		"\\sounds\\Connected.mp3": {
+			"sdcard": false
+		},
+		"\\sounds\\Connected.raw": {
+			"sdcard": false
+		},
+		"\\sounds\\rawtobin.js": {
+			"sdcard": false
+		},
+		"\\src\\images\\arrows": {
+			"sdcard": false
+		},
+		"\\src\\images\\Heading.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\Heading.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes": {
+			"sdcard": false
+		},
+		"\\src\\puzzles\\Puzzles.h": {
+			"sdcard": false
+		},
+		"\\src\\sounds\\Connected.h": {
+			"sdcard": false
+		},
+		"\\src\\utils\\GameCookie.h": {
+			"sdcard": false
+		},
+		"\\src\\utils\\Structs.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\arrows\\ArrowDown.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\arrows\\Arrows.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\arrows\\ArrowDown.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\arrows\\ArrowUp.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\arrows\\ArrowUp.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connectors.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Corner_BR.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Corner_BL.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Corner_BL.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Corner_TL.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Corner_BR.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Corner_TR.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Corner_TL.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Corner_TR.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Horizontal.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Horizontal.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Nothing.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Vertical.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Nothing.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\connectors\\Connector_Vertical.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node1.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node1.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node2.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node10.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node10.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node2.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node3.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node3.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node4.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node4.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node5.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node5.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node7.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node6.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node6.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node7.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node8.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node8.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node9.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Node9.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\nodes\\Nodes.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipes.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Corner_BR.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Corner_BL.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Corner_BL.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Corner_BR_NoFlange.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Corner_BR.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Corner_BR_NoFlange.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Corner_TL.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Corner_TR_NoFlange.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Corner_TL.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Corner_TR_NoFlange.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Cross.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Cross.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Cross_Overlap.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Cross_Overlap.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Cross_Overlap_NoFlange.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Cross_Overlap_NoFlange.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Cross_Underlap_NoFlange.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Cross_Underlap_NoFlange.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Nothing.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Nothing.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Straight_LR.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Straight_LR_NoFlange.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Straight_LR.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Straight_LR_NoFlange.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Straight_TB.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Straight_TB_NoFlange.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Straight_TB.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Straight_TB_NoFlange.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Tee_LR_B.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Tee_LR_B.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Tee_LR_T.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Tee_LR_T.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Tee_TB_L.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Tee_TB_L.png": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Tee_TB_R.h": {
+			"sdcard": false
+		},
+		"\\src\\images\\pipes\\Pipe_Tee_TB_R.png": {
+			"sdcard": false
+		},
+		"\\Pipes_Article4_Pokitto.bin.1.png": {
+			"sdcard": false
+		},
+		"\\Pipes_Article4_Pokitto.bin.1.h": {
+			"sdcard": false
+		},
+		"\\documents\\~WRL0003.tmp": {
+			"sdcard": false
+		},
+		"\\documents\\~WRD0150.tmp": {
+			"sdcard": false
+		},
+		"\\documents\\~WRL0162.tmp": {
+			"sdcard": false
+		},
+		"\\documents\\~WRD3780.tmp": {
+			"sdcard": false
+		},
+		"\\documents\\~WRL3788.tmp": {
+			"sdcard": false
 		}
 	}
 }
