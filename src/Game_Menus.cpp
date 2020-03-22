@@ -95,7 +95,7 @@ void Game::levelSelect() {
 /* ----------------------------------------------------------------------------
  *   Render a single level menu item.  
  */
-void Game::renderLevelDetail(byte x, byte y, byte level, byte highlight) {
+void Game::renderLevelDetail(uint8_t x, uint8_t y, uint8_t level, uint8_t highlight) {
 
   if (highlight) {
 	  
@@ -244,7 +244,7 @@ void Game::puzzleSelect() {
 /* ----------------------------------------------------------------------------
  *   Render a single puzzle menu item.  
  */
-void Game::renderPuzzleOption(byte x, byte y, const char* message, byte highlight) {
+void Game::renderPuzzleOption(uint8_t x, uint8_t y, const char* message, uint8_t highlight) {
 
   if (highlight) {
 	  

@@ -96,7 +96,7 @@
 			"-fno-delete-null-pointer-checks"
 		],
 		"ALL": [
-			"-std=c++14"
+			"-std=c++17"
 		]
 	},
 	"CFlags": {
@@ -1576,6 +1576,12 @@
 		},
 		"/documents/~$pes_Article4_Callout.docx": {
 			"sdcard": false
+		},
+		"/Pipes_Article4_Pokitto.eeprom": {
+			"sdcard": false
 		}
+	},
+	"BUILDFlags": {
+		"Pokitto": {}
 	}
 }

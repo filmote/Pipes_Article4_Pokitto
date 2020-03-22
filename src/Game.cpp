@@ -131,9 +131,9 @@ void Game::play_NoSelection() {
  *   Games greater than 5 x 5 cannot be rendered on the screen completely.  The
  *   top row to display is calculated based on the player's highlighted cell.
  */
-byte Game::calculateTopRow() {
+uint8_t Game::calculateTopRow() {
 
-  byte topRow = 0;
+  uint8_t topRow = 0;
 
   if (player.highlightedNode.y <= 2) {
 
@@ -491,7 +491,7 @@ void Game::play_NodeSelected() {
 /* ----------------------------------------------------------------------------
  *   Fix the pipe graphics when reversing back on yourself.
  */
-void Game::updatePipeWhenReversing(byte x, byte y) {
+void Game::updatePipeWhenReversing(uint8_t x, uint8_t y) {
 
   switch (getPipeValue(x, y)) {
 
@@ -535,7 +535,7 @@ void Game::updatePipeWhenReversing(byte x, byte y) {
  *   selectedNode:  The node previously selected.
  *   x and y:       Coordinates to test.  Passed as char to allow negatives.
  */
-bool Game::validMove(byte direction, Node selectedNode, int x, int y) {
+bool Game::validMove(uint8_t direction, Node selectedNode, int x, int y) {
 
   
   // Off the grid!

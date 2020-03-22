@@ -13,7 +13,7 @@ using PS = Pokitto::Sound;
 /* ----------------------------------------------------------------------------
  *   Render the backgrpund pipe scene.
  */
-void Game::renderBackground(byte counter) { 
+void Game::renderBackground(uint8_t counter) { 
 
   PD::fillScreen(11);
 
@@ -89,7 +89,7 @@ void Game::renderBackground(byte counter) {
 /* ----------------------------------------------------------------------------
  *   Render the board.
  */
-void Game::renderBoard(int xOffset, int yOffset, byte topRow) { 
+void Game::renderBoard(int xOffset, int yOffset, uint8_t topRow) { 
 
 
   // Draw stripey background ..
