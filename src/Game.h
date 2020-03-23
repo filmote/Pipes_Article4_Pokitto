@@ -26,7 +26,7 @@ class Game {
       void play_InitGame();
       void play_NoSelection();
       void play_NodeSelected();
-      void renderBoard(int xOffset, int yOffset, uint8_t topRow);
+      void renderBoard(uint8_t xOffset, uint8_t yOffset, uint8_t topRow);
 
 
       // Manu handling options ..
@@ -72,7 +72,7 @@ class Game {
       void clearHighlightAndSelection();
       bool isPuzzleComplete();
       void updatePipeWhenReversing(uint8_t x, uint8_t y);
-      bool validMove(uint8_t direction, Node selectedNode, int x, int y);
+      bool validMove(uint8_t direction, Node selectedNode, int8_t x, int8_t y);
 
 
     private:

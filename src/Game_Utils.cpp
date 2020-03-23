@@ -42,7 +42,7 @@ void Game::initBoard(uint8_t puzzleType, uint8_t puzzleNumber) {
   puzzle.slider.unit = puzzles_details[((puzzleType - 5) * 4) + 2];
   puzzle.slider.overall = puzzles_details[((puzzleType - 5) * 4) + 3];
 
-  for (int i = (puzzleNumber * bytesToRead); i < ((puzzleNumber + 1) * bytesToRead); i++) {
+  for (uint8_t i = (puzzleNumber * bytesToRead); i < ((puzzleNumber + 1) * bytesToRead); i++) {
 
   	switch (puzzleType) {
       
