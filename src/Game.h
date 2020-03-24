@@ -26,7 +26,7 @@ class Game {
       void play_InitGame();
       void play_NoSelection();
       void play_NodeSelected();
-      void renderBoard(uint8_t xOffset, uint8_t yOffset, uint8_t topRow);
+      void renderBoard(int8_t xOffset, int8_t yOffset, uint8_t topRow);
 
 
       // Manu handling options ..
